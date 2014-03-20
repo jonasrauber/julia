@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-#if defined(__APPLE) || defined(__FreeBSD__)
+#if defined(__APPLE__) || defined(__FreeBSD__)
 #include <xlocale.h>
 #endif
 
